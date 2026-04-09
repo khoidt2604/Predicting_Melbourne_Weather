@@ -174,19 +174,19 @@ Selected weather variables are resampled monthly to explore broader seasonal pat
 
 ### 1. Correlation Heatmap
 
-![Correlation Heatmap](Screenshot%202026-04-09%20at%2010.58.37%E2%80%AFpm.png)
+![Correlation Heatmap](Correlation_Heatmap.png)
 
 This heatmap summarizes the relationships between the main weather variables. Strong positive relationships appear between **air temperature**, **apparent temperature**, and **dew point temperature**, while **humidity** shows a negative relationship with temperature. Wind-related variables also show meaningful structure, especially between **wind speed**, **Y_speed**, and **wind gust**. This visual helps identify which variables may be useful for rainfall prediction.
 
 ### 2. Y Wind Speed vs Air Temperature
 
-![Y Wind Speed vs Air Temperature](Screenshot%202026-04-09%20at%2010.58.48%E2%80%AFpm.png)
+![Y Wind Speed vs Air Temperature](Y_Wind_Speed_and_Air_Temperature.png)
 
 This scatter plot shows a clear negative relationship between **Y wind speed** and **air temperature**. Lower Y-direction wind values are associated with higher temperatures, while higher Y-direction wind values tend to align with cooler conditions. This suggests that wind direction and wind movement may be useful predictors in the weather model.
 
 ### 3. Model Comparison Table
 
-![Model Comparison Table](Screenshot%202026-04-09%20at%2010.59.07%E2%80%AFpm.png)
+![Model Comparison Table](Model_Comparison.png)
 
 This summary table compares model performance across:
 - binary rainfall prediction
