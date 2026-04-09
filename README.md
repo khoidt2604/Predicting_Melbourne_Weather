@@ -174,7 +174,7 @@ Selected weather variables are resampled monthly to explore broader seasonal pat
 
 ### 1. Correlation Heatmap
 
-![Correlation Heatmap](Correlation_Heatmap.png)
+![Correlation Heatmap](Heatmap_Correlation.png)
 
 This heatmap summarizes the relationships between the main weather variables. Strong positive relationships appear between **air temperature**, **apparent temperature**, and **dew point temperature**, while **humidity** shows a negative relationship with temperature. Wind-related variables also show meaningful structure, especially between **wind speed**, **Y_speed**, and **wind gust**. This visual helps identify which variables may be useful for rainfall prediction.
 
